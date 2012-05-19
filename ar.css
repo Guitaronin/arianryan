@@ -1,0 +1,189 @@
+/****************** Info about images *************************
+
+Title gif font foreground = 43pt AvQuest
+background = 72pt Beech
+orange = rbg 255,54,0
+blue = 
+aqua = 
+yellow = 
+
+******************* End image info ******************************/
+
+
+
+html,body {
+height: 100%;
+background-color: rgb(245,246,187);
+background-image: url(ar_images/borderLeft_200x200.gif);
+background-repeat: repeat-y;
+}
+
+#map li {
+list-style: none;
+}
+
+#map li li li {
+display: inline;
+font-size: 7pt;
+}
+
+
+a:link {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: normal; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+a:visited {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: normal; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+a:hover {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: rgb(255,54,0); FONT-FAMILY: verdana; Arial; TEXT-DECORATION: underline;
+}
+a:active {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: normal; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+
+/*********************************** TITLE ***************************************************/
+
+/*** Browser Hack: IE can't interpret "parent/child command"; other browsers default to the second rule ***/
+
+
+#title {
+position: absolute; top: 0px; left: 20px;
+}
+
+html>body #title {
+position: absolute; top: 0px; left: 0px;
+}
+
+
+/*** End Browswer Hack *******************************************************************/
+
+
+#title {
+position: absolute; 
+z-index: 2;
+width: 100%;
+height: 84px;
+background-image: url(ar_images/borderTop_83x83.gif);
+background-repeat: repeat-x;
+background-color: black;
+border-bottom: 1px solid;
+padding: 0 0 0 0;
+border-color: rgb(255,54,0);
+}
+
+#title img {
+position: absolute;
+margin-left: 196px;
+}
+
+
+
+/*************************************** Navigation **********************************************/
+
+
+#nav {
+position: absolute; top: 0px; left: 0px;
+z-index: 3;
+width: 200px;
+height: 100%;
+padding: 20px 0 0 0;
+margin: -20px 0 0 0;
+border-right: 1px solid;
+border-color: rgb(255,54,0);
+}
+
+#mascot {
+border-bottom: 1px solid;
+border-color: rgb(255,54,0);
+}
+
+#nav a:link {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: #fff; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+#nav a:visited {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: #fff; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+#nav a:hover {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: rgb(255,54,0); FONT-FAMILY: verdana; Arial; TEXT-DECORATION: underline;
+}
+#nav a:active {
+FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: #fff; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+
+
+#nav li li {
+padding: 0 0 0 0;
+}
+
+#nav li {
+list-style: none;
+padding: .5em 0 0 10px;
+margin-left: 0;
+padding-left: 0;
+}
+
+
+#embedded a:link {
+FONT-WEIGHT: normal; FONT-SIZE: .7em; COLOR: #fff; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+#embedded a:visited {
+FONT-WEIGHT: normal; FONT-SIZE: .7em; COLOR: #fff; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+#embedded a:hover {
+FONT-WEIGHT: normal; FONT-SIZE: .7em; COLOR: rgb(255,54,0); FONT-FAMILY: verdana; Arial; TEXT-DECORATION: underline;
+}
+#embedded a:active {
+FONT-WEIGHT: normal; FONT-SIZE: .7em; COLOR: #fff; FONT-FAMILY: verdana; Arial; TEXT-DECORATION: none;
+}
+
+
+/*************************************** CONTENT **********************************************************/
+
+
+
+#content {
+position: absolute; top: 0; left: 200px;
+z-index: 0;
+height: 100%;
+/***width: 600px;***/
+max-width: 60%;
+min-width:  250px;
+background-color: rgb(245,246,187);
+font-family: verdana;
+font-size: 9pt;
+padding: 103px 10px 10px 20px;
+}
+
+h5 {
+font-size: 13pt;
+font-family: impact; verdana; arial;
+padding-bottom: 0;
+}
+
+table {
+border-collapse: collapse;
+font-size: 8px;
+}
+
+td {
+border: 1px solid black;
+padding: 3px 3px 3px 3px;
+text-align: center;
+font-size: 11pt;
+}
+
+th {
+border: none;
+text-align: center;
+font-size: 12pt;
+font-style: bold;
+}
+
+#form {
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+font-size: 8pt;
+font-family: verdana; arial;
+color: #808080;
+}

@@ -1,0 +1,184 @@
+#mascot {
+position: absolute; top: 0px; left: 0px;
+width: 150px;
+height: 192px;
+margin: 0 0 0 0;
+z-index: 1;
+}
+#logo {
+position: absolute; top: 0px; left: 80px;
+width: 150px;
+height: 57px;
+z-index: 2;
+}
+
+#pageInfo {
+position: absolute; top: 170px; left: 415px;
+z-index: 7;
+width: 400px;
+height: 30px;
+font-family: verdana;
+font-size: 11px;
+text-align: center;
+}
+
+#nav {
+position: absolute;
+height: 100px;
+margin: 10px 0 0 255px;
+z-index: 6;
+}
+
+#nav li {
+list-style: none;
+display: inline;
+}
+
+#content {
+position: absolute;
+width: 510px;
+height: 100%;
+margin-left: 150px;
+margin-top: 100px;
+padding: 0 10px 0 10px;
+/*border-left: 1px solid #999999;
+border-right: 1px solid #999999;*/
+font-family: georgia, arial;
+font-size: 12px;
+}
+
+
+
+
+#content h3 {
+font-family: georgia, verdana;
+font-size: 14px;
+margin: 40px 0 10px 0;
+}
+
+#category li {
+list-style: none;
+text-align: left;
+font-family: georgia;
+font-size: 12px;
+}
+
+#category ul {
+float: left;
+}
+
+#updates li {
+list-style: none;
+text-align: left;
+font-family: georgia;
+font-size: 12px;
+}
+
+
+
+
+#spotlight {
+position: absolute;
+margin: 100px 0 0 665px;
+width: 140px;
+height: 100%;
+text-align: left;
+}
+
+html>body #spotlight {
+position: absolute;
+margin: 100px 0 0 687px;
+width: 140px;
+height: 100%;
+text-align: left;
+}
+
+#spotlight h3 {
+font-family:  verdana, arial;
+font-size: 11px;
+color: #000;
+margin: 15px 0 5px 0;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+}
+
+#spotlight p {
+font-family:  verdana, arial;
+font-size: 11px;
+color: #444444;
+margin: 5px 0 0 0;
+}
+
+
+#userNav h3 {
+font-family:  verdana, arial;
+font-size: 11px;
+color: #000;
+margin: 15px 0 5px 0;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+}
+
+#userNav p {
+font-family:  verdana, arial;
+font-size: 11px;
+color: #444444;
+margin: 5px 0 0 0;
+}
+
+#userNav {
+position: absolute;
+margin: 182px 0 0 0;
+width: 140px;
+height: 300px;
+}
+
+img{
+border: none;
+}
+
+#nav a:link {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+#nav a:visited {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+#nav a:hover {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: red; FONT-FAMILY:  verdana; TEXT-DECORATION: underline;
+}
+#nav a:active {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+
+
+
+
+a:link {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+a:visited {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+a:hover {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: red; FONT-FAMILY:  verdana; TEXT-DECORATION: underline; 
+
+a:active {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none; 
+}
+
+
+
+
+#userNav a:link {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: blue; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+#userNav a:visited {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none;
+}
+#userNav a:hover {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: red; FONT-FAMILY:  verdana; TEXT-DECORATION: underline; 
+
+#userNav a:active {
+FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000; FONT-FAMILY:  verdana; TEXT-DECORATION: none; 
+}
+
