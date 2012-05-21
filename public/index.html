@@ -1,58 +1,236 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!doctype html>
 <head>
-	<meta name="Keywords" content="arian, ryan, music, martial, arts, jazz, movies, web design">
-	<meta name="Description" content="The personal and professional endeavors of Arian Ryan">
-	<meta name="verify-v1" content="oTk+ilJyBKc8/2bk2rDZuU6W5EH31ylnxH1rEV0bJ88=" />
-	
-	<title>Arian Ryan Home Page</title>
-	
-	<link rel="stylesheet" type="text/css" href="/css/homepage.css">
-
+  <meta charset="utf-8">
+  <title>Arian Ryan | Homepage</title>
+  <meta name="description" content="The personal and professional endeavors of Arian Ryan">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/elements.css">
+  <link rel="stylesheet" href="css/prettyPhoto.css">
 </head>
 
 <body>
-	
-	<div id="main">
-		
-		<div id="header">
-			<a href="/">
-				<img id="logo" src="/images/ar_logo_v2.png" width="239" height="119" />
-			</a>
-			
-			<ul id="nav">
-				<li><a href="http://facebook.com/guitaronin" class="facebook_link" ></a></li>
-				<li><a href="http://twitter.com/Arian_Ryan" class="twitter_link"></a></li>
-				<li><a href="http://linkedin.com/in/arianryan" class="linkedin_link"></a></li>
-				<li><a href="http://ariansadventures.blogspot.com" class="blogger_link"></a></li>
-			</ul>
-				
-		</div>
-	
-		<div id="content">
-			<img  src="/images/arianSilhouette_540x692.jpg" id="mascot" width="540" height="692" />
-			
-			<h2>About Me</h2>
-			<p>
-				I like to think of myself as a man of contrasts - someone with simple standards, but extreme ambition regarding personal growth.
-			</p>
-			
-			<p>
-				I have been practicing martial arts, music, and vegetarianism for equal to or greater than half my life. I have a degree in music (Jazz Studies). I've worked extensively as a musician (teacher and performer), concert/event production supervisor, online marketing and product manager, and pizza delivery driver, and now full time software developer.
-			</p>
-			
-			<p>
-				I reside in NYC, where everyday I get a little better at taking deep breathes in places where I don't trust the air.
-			</p>
-			<p>
-				Previously I lived in Japan, where everyday I got a little better at asking for sushi without fish in it.
-			</p>
-			
-			<p>
-				If you want to connect with me, learn more about me, or follow my ramblings, just follow the links above.
-			</p>
-		</div>
-		
-	</div>
+<div id="content">
+
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo"><h2>Arian<strong>Ryan</strong></h2></div>
+    <div class="menubutton"></div>
+
+    <div class="menu">
+      <ul>
+        <li id="default"><a href="#homepage">Home</a></li>
+        <li><a style="display:none" href="#portfolio">Portfolio</a></li>
+        <li><a style="display:none" href="#blog">Blog</a></li>
+        <li><a style="display:none" href="#resume">Resume</a></li>
+        <li><a style="display:none" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <br class="clear" />
+  </div>
+
+
+
+  <!-- HOMEPAGE -->
+  <div class="wrapper homepage" id="homepage">
+    <div class="container">
+      <div class="three columns">       
+        <div class="frame">
+          <img src="/images/doss_photo_230x300.jpg">
+        </div>
+      </div>
+      
+      <div class="five columns">
+        <h1>Redneck Savant</h1>
+        <p><strong>Hello! Who am I?</strong></p>
+        <p>
+			I'm probably more than the sum of my interests, but that other stuff is hard to share through a website.  So in short, I hack at ruby/web programming, jazz guitar, martial arts, vegetarian cooking, spirituality, and other random things.
+		</p>
+		<p>
+			I live in New York City with my fiance and my dog. It's a good time.
+		</p>
+      </div>
+      
+      <div class="four columns">
+        <div class="left-divider">
+          <p>Find me on the web in these places:</p>       
+          <a href="http://twitter.com/arian_ryan"><button class="twitter">@arian_ryan</button></a>
+          <a href="http://facebook.com/guitaronin"><button class="facebook">Guitaronin</button></a>
+          <a href="http://linkedin.com/in/arianryan"><button class="linkedin">Arian Ryan</button></a>
+          <!-- <a href="mailto:you@youremail.com"><button class="mail">you@youremail.com</button></a> -->
+        </div>
+      </div>
+
+   </div>
+  </div>
+
+
+
+  <!-- PORTFOLIO -->
+  <div class="wrapper portfolio" id="portfolio">
+    <span class="big-text">portfolio</span>
+    <div class="container">
+      <div class="twelve columns slogan">
+        <h5>Your tags/motto</h5>
+      </div>
+
+      <div class="items">      
+        <div class="twelve columns">
+          
+          <a href="img/bigimage.jpg" rel="prettyPhoto" title="Image caption here">
+            <div class="item">
+              <img src="img/smallimage.jpg">
+                <div class="mask">
+                <h6>Title on hover</h6>
+                <p>Description on hover</p>
+                <span class="tags">tags</span>
+                </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+   </div>
+  </div>
+
+
+
+  <!-- BLOG -->
+  <div class="wrapper blog" id="blog">
+    <span class="big-text">blog</span>
+    <div class="container">
+      
+        <div class="ten columns offset-by-two post-title">
+          <h5>Post title</h5>
+        </div>
+        <div class="two columns info">       
+          <span class="date">date</span>
+          <span class="author">author</span>
+          <span class="tags">tag</span>
+        </div>
+        <div class="ten columns post">
+          <img src="img/blogpostimage.jpg">
+          <p><strong>Bold text</strong></p>
+          <p>More text</p>
+          <a href="#_" class="readmore">Read more &rarr;</a>
+          <div class="more">
+            <p>Text after read more button</p>
+          </div>
+        </div>
+
+   </div>
+  </div>
+
+
+  <!-- RESUME -->
+  <div class="wrapper resume" id="resume">
+    <span class="big-text">resume</span>
+    <div class="container">
+      
+      <div class="eight columns">
+        
+        <div class="education">
+          <h5>Education</h5>
+
+          <div class="date">date</div>
+          <div class="info">
+            <div class="heading">
+              <h6>education title</h6>
+              <span class="place">location</span>
+            </div>
+            <p class="description">education description</p>
+          </div>
+
+        </div>
+ 
+        <div class="experience">
+          <h5>Experience</h5>
+
+          <div class="date">date</div>
+          <div class="info">
+            <div class="heading">
+              <h6>Your job/function</h6>
+              <span class="place">company</span>
+            </div>
+            <p class="description">job description</p>
+          </div>
+
+        </div>    
+
+      </div>
+
+      <div class="four columns">
+        <div class="left-padding">
+          <div class="skills">
+            <h5>Skills</h5>
+            <div class="skill-container">
+              <div class="skill" style="width: 65%;">Your skill (change percentage to the left)</div>
+            </div>
+          </div>
+
+          <a href="link to your resume"><button class="big">Download my resume</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CONTACT -->
+  <div class="wrapper contact" id="contact">
+    <span class="big-text">contact</span>
+    <div class="container">
+      <div class="twelve columns">
+        <div class="map"><img src="img/yourcontactimage.jpg"></div>
+      </div>
+      <div class="four columns">
+        <h5>Contact info</h5>
+        <ul>
+          <li><strong>Name:</strong> Your name</li>
+          <li><strong>Address:</strong> Your address</li>
+          <li><strong>E-mail:</strong> you@youremail</li>
+          <li><strong>Phone:</strong> Your phone number</li>
+        </ul>
+
+      </div>
+      <div class="eight columns">
+      <form method="post" action="send.php" id="contactform">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" class="required" />
+ 
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" class="required email"/>
+        
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" class="required"></textarea>
+
+        <button type="submit" name="submit" value="Submit" class="submit-button">Send message</button>
+      </form>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="footer">
+    Copyright 2012 Arian Ryan
+  </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/libs/respond.min.js"></script>
+<script src="js/libs/jquery.easytabs.min.js"></script>
+<script src="js/libs/jquery.prettyPhoto.js"></script>
+<script src="js/libs/jquery.validate.min.js"></script>
+<script src="js/script.js"></script>
+
+
 </body>
 </html>
